@@ -1,0 +1,342 @@
+/* navegación */
+@media screen and (max-width: 800px){
+    .ul-il{
+        padding: 0px 12px;
+    }
+}
+@media screen and (max-width: 728px){
+    .ul-il{
+        padding: 0px 10px;
+    }
+    .ul-il a{
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .ul-il i{
+        font-size: 13px;
+    }
+    .nav{
+        height: 55px;
+        background-size: 70px;
+        background-position-y: 7px;
+
+    }
+}
+@media screen and (max-width: 580px){
+    .nav{
+        display: none;
+    }
+    .nav-responsive{
+        background: #1840dc;
+        background-image: url(imagenes/logo-a/logo-nav.png);
+        background-repeat: no-repeat;
+        background-position-x: 5px;
+        background-position-y: 9px;
+        background-size: 130px;
+        padding: 2px;
+        margin: -08px;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .ul-il-responsive{
+        display:inline-block;
+        padding: 0px 16px;
+    }
+    /* Barra de busqueda */
+    .buscar-responsive{
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+        width: 100px;
+        height: 18px;
+        padding: 2px;
+        padding-left: 9px;
+        border: none;
+        outline: none;
+        border-top: 2px solid #ffffff ;
+        border-bottom: 2px solid #ffffff ;
+        border-left: 2px solid #ffffff ;
+        border-right: none ;
+        transition: width .55s;
+    }
+    .buscar-responsive::placeholder{
+        color: #000;
+    }
+    .boton-responsive{
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        border-top: 2px solid #ffffff ;
+        border-bottom: 2px solid #ffffff ;
+        border-right: 2px solid #ffffff ;
+        border-left: none ;
+        height: 26px;
+        margin-top: -2px;
+        background: #fff;
+    }
+    #buscar{
+        margin-right: 0px;
+        font-size: 12px;
+        color: #150773;
+    }
+    .ul-il-responsive i {
+        color: #fff;
+        margin-right: 10px;
+    }
+    .boton-responsive i{
+        font-size: 10px;
+        color: #000;
+    }
+    /* barra de nav. */
+    .botom {
+        background-color: transparent;
+        height: 51px;
+        width: 50px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        margin: -37px -11px;
+        transition: all 1s
+    }
+    .lista{
+        margin-top: 10px;
+    }
+    .lista-a{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .barra-nav{
+        display: block;
+        transition: all 1s
+    }
+    .barra-nav-contenido {
+        margin-left: 70px;
+        position: absolute;
+        background: rgb(29, 28, 28);
+        margin-top: -36px;
+        height: 100vh;
+        min-width: 100vw;
+        transition: all 1s;
+    }
+    .barra-nav-contenido a {
+        color:#fff;
+        padding: 12px 17px;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        font-family: 'Rubik', sans-serif;
+        transition: all 1s;
+        z-index: 20;
+    }
+    .barra-nav-contenido a:hover {
+        transition: all 1s;
+    }
+    .barra-nav:hover  .barra-nav-contenido {
+        display: block;
+        margin-left: -140px;
+        transition: all 1s
+    }
+    .barra-nav:hover .botom {
+        background:inherit;
+        transition: all 1s;
+    }
+}
+/* barra de busuqeda */
+@media screen and (max-width: 800px){
+    .search{
+        width: 80px;
+    }
+    .search:focus{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 728px){
+    .search{
+        width: 50px;
+        height: 13px;
+    }
+    .search:focus{
+        width: 50px;
+    }
+    .buttom i{
+        font-size: 10px;
+    }
+    .buttom{
+        height: 21px;
+    }
+}
+@media screen and (max-width: 540px){
+    .search{
+        width: 50px;
+        height: 13px;
+    }
+    .search:focus{
+        width: 50px;
+    }
+}
+/* imagen central */
+@media screen and (max-width: 910px){
+    .imagen-principal{
+        height: 250px;
+        background-position-y: 40px;
+        background-size: 250px, 100vmax;
+    }
+}
+@media screen and (max-width: 700px){
+    .imagen-principal{
+        height: 200px;
+        background-position-y: 40px;
+        background-size: 200px, 100vmax;
+    }
+}
+@media screen and (max-width: 525px){
+    .imagen-principal{
+        height: 170px;
+        background-position-y: 52px;
+        background-size: 150px, 100vmax;
+    }
+}
+/* titulo-pricipal */
+@media screen and (max-width: 630px){
+    .titulo-principal{
+        font-size: 20px ;
+    }
+}
+@media screen and (max-width: 460px){
+    .titulo-principal{
+        font-size: 15px ;
+    }
+}
+/* Tutilos */
+@media screen and (max-width: 630px){
+    .titulos{
+        font-size: 15px ;
+        padding-left: 6%;
+    }
+}
+@media screen and (max-width: 700px){
+    .titulos{
+        font-size: 25px ;
+        padding-left: 6%;
+    }
+}
+@media screen and (max-width: 460px){
+    .titulos{
+        font-size: 19px ;
+        padding-left: 6%;
+    }
+}
+/* cuerpos */
+@media screen and (max-width: 630px){
+    .cuerpos{
+        font-size: 10px ;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+@media screen and (max-width: 700px){
+    .cuerpos{
+        font-size: 15px ;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media screen and (max-width: 460px){
+    .cuerpos{
+        font-size: 13px ;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+/* aside */
+@media screen and (max-width: 760px) {
+    .aside{
+        height: 300px ;
+    }
+}
+@media screen and (max-width: 630px) {
+    .aside{
+        height: 240px ;
+    }
+}
+@media screen and (max-width: 425px) {
+    .aside{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .aside{
+        height: 170px;
+    }
+}
+@media screen and (max-width: 760px){
+    .imagenes img{
+        width: 120px;
+        padding-top: 40px;
+    }
+    .imagenes img:hover{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 630px){
+    .imagenes img{
+        width: 90px;
+        padding-top: 30px;
+    }
+    .imagenes img:hover{
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 425px){
+    .imagenes img{
+        width: 70px;
+        padding-top: 25px;
+    }
+    .imagenes img:hover{
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width: 375px){
+    .imagenes img{
+        width: 60px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .imagenes img:hover{
+        padding-top: 20px;
+    }
+}
+/* bottom de inicio */
+@media screen and (max-width: 550px) {
+    .inicio{
+        width: 25px;
+        height: 20px;
+    }
+}
+/* logo-footer */
+@media screen and (max-width: 700px){
+    .logo-footer img{
+        width: 150px;
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 527px){
+    .logo-footer img{
+        width: 110px;
+        margin-left: 30px;
+    }
+}
+/* info */
+@media screen and (max-width: 700px){
+    .info a{
+        font-size: 20px;
+        margin-right: 15px;
+    }
+}
+@media screen and (max-width: 527px){
+    .info a{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}

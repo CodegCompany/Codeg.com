@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Viewpoint -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESON -->
+    <script src="https://kit.fontawesome.com/e680d17e28.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="imagenes/favicon.png">
+    <!-- hoja de CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- hoja responsive design de CSS -->
+    <link rel="stylesheet" href="responsive-styles.css">
+    <!-- titulo -->
+    <title>Desarrollo web</title>
+</head>
+<body>
+    <!-- Navegacion -->
+    <header class="container">
+        <nav class="nav">
+            <!-- barra de nav. -->
+            <ul class="nav-ul">
+                <li class="ul-il"><i class="fas fa-home"></i><a href="/index.html"><i></i>Inicio</a></li>
+                <li class="ul-il"><i class="fas fa-donate"></i><a href="https://www.paypal.com/gt/webapps/mpp/home?kid=p66059410468&gclid=Cj0KCQjw8p2MBhCiARIsADDUFVG25hAqLwgKCINQPU5JIKN2bBDeE6teEAAIO5gmJsPwtXAYlac-iM8aAsKIEALw_wcB&gclsrc=aw.ds"><i></i>Donaciones</a></li>
+                <li class="ul-il"><i class="fas fa-user-friends"></i><a href="/Contactenos/contactenos.html"><i></i>Contactenos</a></li>
+                <li class="ul-il"><input type="text" class="search "  placeholder="Buscar" /><button class="buttom"><i class="fas fa-search"></i></button></li>
+            </ul>
+        </nav>
+        <nav class="nav-responsive">
+            <!-- barra de nav. responsive -->
+            <ul class="nav-ul-responsive">
+                <li class="ul-il-responsive">
+                    <div class="barra-nav">
+                        <button class="botom"><i class="fas fa-bars"></i></button>
+                        <div class="barra-nav-contenido">
+                        <a class="lista-a"><input placeholder="buscar..." class="buscar-responsive"><button class="boton-responsive"><i class="fas fa-search" id="buscar"></i></button></a>
+                        <a href="/index.html" class="lista"><i class="fas fa-home"></i> Inicio </a>
+                        <a href="https://www.paypal.com/gt/webapps/mpp/home?kid=p66059410468&gclid=Cj0KCQjw8p2MBhCiARIsADDUFVG25hAqLwgKCINQPU5JIKN2bBDeE6teEAAIO5gmJsPwtXAYlac-iM8aAsKIEALw_wcB&gclsrc=aw.ds" class="lista"><i class="fas fa-donate"></i> donaciones </a>
+                        <a href="/Contactenos/contactenos.html" class="lista"><i class="fas fa-user-friends"></i>Contactenos</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="imagen-principal"  id="inicio"></div>
+    <div class="conteiner-article">
+        <div class="titulo-principal">
+            <h1>Desarrollo Web &LT;/<span class="animation-teclado">_</span>&gt;</h1>
+        </div>
+        <article>
+            <h1 class="titulos">¿Que es Desarrollo Web?</h1>
+            <p class="cuerpos">Desarrollo web significa construir y mantener sitios web; es el trabajo que tiene lugar en un segundo plano y que permite que una web tenga una apariencia impecable, un funcionamiento rápido y un buen desempeño para permitir la mejor experiencia de usuario. Los desarrolladores web son como duendes con poderes: nunca los ves, pero son los que hacen que todo esté bien y funcione de manera rápida y eficiente.</p>
+            <p class="cuerpos">El desarrollo web incluye muchos tipos de creación de contenido web. Algunos ejemplos incluyen páginas web de codificación manual en un <b>editor de texto</b>, crear un sitio web en un programa como Dreamweaver y actualizar un Blog a través de un sitio web de blogs. En los últimos años, los sistemas de gestión de contenido como <b>WordPress</b> y <b>Joomla</b> también se han convertido en medios populares de desarrollo web. Estas herramientas facilitan que cualquiera pueda crear y editar su propio sitio web utilizando un sitio web interfaz.</p>
+            <p class="cuerpos">Si bien existen varios métodos para crear sitios web, a menudo existe una compensación entre la <b>simplicidad</b> y la <b>personalización</b>. Por lo tanto, la mayoría de las grandes empresas no utilizan sistemas de gestión de contenido, sino que tienen un equipo de desarrollo web dedicado que diseña y mantiene los sitios web de la empresa. Las organizaciones pequeñas y las personas tienen más probabilidades de elegir una solución como WordPress que proporciona un sitio web básico plantilla y herramientas de edición simplificadas.</p>
+        </article>
+        <article>
+            <h2 class="titulos"> Pero... ¿Como Lograrlo?</h2>
+            <p class="cuerpos">Los desarrolladores web lo hacen a través de <b>diversos lenguajes de programación</b>. El lenguaje que usan en cada momento depende del tipo de tarea que están haciendo. El desarrollo web se divide, de forma general, en <b>Frontend</b> (la parte cliente) y <b>Backend</b> (la parte servidor).</p>
+        </article>
+        <article>
+            <h2 class="titulos">Frontend, Backend o Full-stack,<br> ¿Quién es quién?</h2>
+                <p class="cuerpos" id="cuerpos-b"><b>Frontend:</b></p>
+                <p class="cuerpos">Un desarrollador <b>Frontend</b> se encarga de la <b>composición</b>, <b>diseño</b> e <b>interactividad</b> usando <i>HTML</i>, <i>CSS</i> y <i>JavaScript</i>. El desarrollador Frontend toma una idea y la convierte en realidad. Lo que ves y lo que usas, como por ejemplo el aspecto visual del sitio web, los menús desplegables y el texto, son creados por el desarrollador Frontend, que escribe una serie de programas para dar estructura, forma e interactividad a estos elementos. Estos programas se ejecutan después a través de un <b>navegador</b>.</p>
+                <p class="cuerpos" id="cuerpos-b"><b>Backend:</b></p>
+                <p class="cuerpos">El desarrollador <b>Backend</b> se encarga de lo que no se ve, es decir, dónde se almacenan los datos. Sin datos no hay Frontend. El Backend consiste en el servidor que acoge la web, una aplicación para ejecutarlo y una base de datos. El desarrollador Backend utiliza programas de computación para asegurar que el servidor, la aplicación y la base de datos tengan un desempeño regular conjunto. Además, analiza qué necesita la empresa y proporciona soluciones de programación eficientes. Para hacer este increíble trabajo, utiliza una serie de lenguajes del lado del servidor, como <i>PHP, Ruby, Python</i> y <i>Java</i>.</p>
+                <p class="cuerpos" id="cuerpos-b"><b>Full-stack:</b></p>
+                <p class="cuerpos">Si te interesan tanto el Frontend como el Backend, deberías plantearte convertirte en desarrollador·a <b>Full-stack</b>. El desarrollador Full-stack está a cargo tanto del Frontend como del Backend, y necesita saber cómo funciona la web a todos los niveles para determinar cómo se van a coordinar la parte cliente y la parte servidor. Para alcanzar este nivel de experiencia hace falta más tiempo, claro, puesto que hay más que aprender.</p>
+        </article>
+        <article class="final">
+            <h2 class="titulos"> Ventajas</h2>
+                <p class="cuerpos"><i>“Convertirte en un profesional de la web te permite trabajar en casi cualquier campo, porque actualmente la web está presente en todos los ámbitos profesionales. Puedes ser desarrollador web y especializarte en el mundo del arte o en la industria del automóvil.”</i>, apunta <b>Emily Reese</b>. Los desarrolladores están, generalmente, bien pagados. Y la buena noticia es que, además, es una de las carreras más demandadas en el mercado laboral. A esto se le suma el hecho de que es una profesión de fácil acceso, es decir, no necesitas formarte en la universidad porque la calidad de tu trabajo habla por sí mismo.</p>
+        </article>
+    </div>
+    <div class="aside">
+        <h2 class="titulos">Algunos Lenguajes que te pueden interezar:</h2>
+        <div class="imagenes">
+            <a href="#"><img src="imagenes/html.png"></a>
+            <a href="#"><img src="imagenes/css.png"></a>
+            <a href="#"><img src="imagenes/js.png"></a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-conteiner">
+            <div class="boton-inicio">
+                <a href="#inicio"><button class="inicio"><i class="fas fa-chevron-up"></i></button></a>
+            </div>
+            <div>
+                <div class="footer">
+                    <div class="logo-footer">
+                        <img src="imagenes/logo-a/blanco.png">
+                    </div>
+                    <div class="info">
+                        
+                        <a href="https://www.whatsapp.com/?lang=es"><i class="fab fa-whatsapp-square"></i></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fas fa-at"></i></a>
+                        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
