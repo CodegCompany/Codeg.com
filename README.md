@@ -15,6 +15,7 @@
 </head>
 <body>
     <H2><i class="fas fa-tools"></i>   Pagina en proceso  <i class="fas fa-exclamation-triangle"></i></H2>
+    <a href="/Desarrollo web/desarrollo.html">click</a>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
         H2{
